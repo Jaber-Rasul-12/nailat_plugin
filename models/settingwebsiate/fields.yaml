@@ -1,0 +1,198 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    navbar_section:
+        label: 'القسم الرئيسي'
+        type: section
+        comment: 'يمكنك تعديل العناوين الرئيسية و الفرعية في هذا القسم'
+    navbar_title:
+        label: 'العنوان الاساسي'
+        type: text
+        default: 'نايلات'
+        span: auto
+    navbar_sub_title:
+        label: 'العنوان الفرعي'
+        type: textarea
+        default: 'لخدمة الأعمال المتعددة'
+        span: auto
+    navbar_sub_sub_title:
+        label: 'العنوان الفرعي الثاني'
+        type: textarea
+        default: 'حيث تتجسد الرؤية و تتحقق الطموحات'
+        span: auto
+
+    about_us_section:
+        label: 'قسم من نحن'
+        type: section
+        comment: 'يمكنك تعديل العناوين و الوصف في هذا القسم'
+
+    about_us_title_one:
+        label: 'العنوان الاول'
+        type: text
+        default: 'من نحن'
+        span: auto
+    about_us_description_one:
+        label: 'وصف القسم الأول'
+        type: textarea
+        default: 'نايلات ليست مجرد شركة خدمات، بل هي منصة إبداعية متكاملة تجمع بين الخبرة العريقة والابتكار المعاصر. نحن شركاء النجاح للشركات والمؤسسات والعلامات التجارية التي تطمح للتميز والريادة في عالم دائم التطور.'
+        span: auto
+    about_us_title_two:
+        label: 'العنوان الثاني'
+        type: text
+        default: 'ركائز تميزنا'
+        span: auto
+    about_us_description_two:
+        label: 'وصف القسم  الثاني'
+        type: textarea
+        default: 'تعتمد نايلات على قيادة سعودية خبيرة تمتلك أكثر من 20 عاماً من التميز في مجالات الإعلام والتسويق وقطاع الأعمال، لضمان أعلى مستويات الجودة والتأثير.'
+        span: auto
+
+    number_section:
+        label: 'قسم الأرقام الرئيسية'
+        type: section
+        comment: 'يمكنك تعديل الأرقام الرئيسية في هذا القسم'
+    
+    number_projects:
+        label: 'عدد المشاريع'
+        type: number
+        default: '12'
+        span: auto
+    number_exhibitions:
+        label: 'معارض و مؤتمرات'
+        type: number
+        default: '33'
+        span: auto
+    number_clients:
+        label: 'عملاء'
+        type: number
+        default: '12'
+        span: auto
+
+
+    our_work_section:
+        label: 'قسم أعمالنا'
+        type: section
+        comment: 'يمكنك تعديل العناوين و الوصف في هذا القسم'
+
+    our_work_title:
+        label: 'عنوان قسم أعمالنا'
+        type: text
+        default: 'أبرز انجازاتنا'
+        span: auto
+    our_work_description:
+        label: 'وصف قسم أعمالنا'
+        type: textarea
+        default: 'تصفح مجموعة من أعمالنا المميزة'
+        span: auto
+    our_work_description_two:
+        label: 'وصف قسم أعمالنا الثاني'
+        type: text
+        default: 'اكتشف كيف نجسد رؤيتنا الإبداعية في كل مشروع من خلال أمثلة حية ملهمة من أعمالنا'
+        span: auto
+
+    clints_section:
+        label: 'قسم عملائنا'
+        type: section
+        comment: ' يمكنك تعديل العناوين و الوصف في هذا القسم'
+
+    clints1:
+        label: 'شركائنا 1'
+        type: text
+        default: 'صحف محلية و دولية'
+        span: auto
+    clints2:
+        label: 'شركائنا 2'
+        type: text
+        default: 'مواقع اخبارية'
+        span: auto
+    clints3:
+        label: 'شركائنا 3'
+        type: text
+        default: 'قنوات اعلامية'
+        span: auto
+    clints4:
+        label: 'شركائنا 4'
+        type: text
+        default: 'التواصل الاجتماعي و المؤثرين'
+        span: auto
+    clints_description:
+        label: 'وصف الشركاء'
+        type: textarea
+        default: 'نفتخر بشراكاتنا مع وسائل الإعلام والصحف والمواقع الإلكترونية، ومنصات التواصل الاجتماعى، حيث نعمل معا على تنفيذ الحملات الإعلانية باحترافية، وضمان انتشار واسع، ووصول فعال إلى الجمهور المستهدف عبر القنوات التقليدية والرقمي'
+        span: auto
+
+    gifts_section:
+        label: 'قسم الهدايا المخصصة'
+        type: section
+        comment: ' يمكنك تعديل العناوين و الوصف في هذا القسم'
+
+    gifts_title:
+        label: 'عنوان قسم هدايا'
+        type: text
+        default: 'هدايا مخصصة بأفكار إبداعية'
+        span: auto
+    gifts_description:
+        label: 'وصف قسم هدايا'
+        type: textarea
+        default: 'في نايلات، نقدم لكم تشكيلة واسعة من الهدايا الفاخرة القابلة للتخصيص. سواء كان ذلك لحفلات التخرج، الأفراح، أو المناسبات الرسمية، نضمن لكم الجودة العالية والتصميم الفريد الذي يعبر عن ذوقكم الخاص.'
+        span: auto
+
+    footer_contact_section:
+        label: ' قسم تواصل معنا '
+        type: section
+        comment: ' يمكنك تعديل العناوين و الوصف في هذا القسم'
+
+    map_title:
+        label: 'عنوان خريطة الموقع'
+        type: text
+        default: 'الرياض - النيسم الشرقي شارع برقه'
+        span: auto
+
+    numberphone:
+        label: 'رقم الهاتف'
+        type: text
+        default: '+966 57 457 457 4091'
+        span: auto
+    email:
+        label: 'البريد الإلكتروني'
+        type: text
+        default: 'nailat@nailat.sa'
+        span: auto
+
+    footer_url_section:
+        label: 'قسم روابط التواصل الاجتماعي'
+        type: section
+        comment: ' يمكنك تعديل روابط التواصل الاجتماعي في هذا القسم'
+
+    url_facebook:
+        label: 'رابط فيسبوك'
+        type: text
+        default: 'https://www.facebook.com/nailat'
+        span: auto
+
+    url_instagram:
+        label: 'رابط إنستغرام'
+        type: text
+        default: 'https://www.instagram.com/nailat'
+        span: auto
+    url_twitter:
+        label: 'رابط تويتر'
+        type: text
+        default: 'https://twitter.com/nailat'
+        span: auto
+    url_linkedin:
+        label: 'رابط لينكد إن'
+        type: text
+        default: 'https://www.linkedin.com/company/nailat'
+        span: auto
+    url_youtube:
+        label: 'رابط يوتيوب'
+        type: text
+        default: 'https://www.youtube.com/nailat'
+        span: auto
+        
+
+

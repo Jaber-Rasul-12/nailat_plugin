@@ -1,0 +1,21 @@
+columns:
+    id:
+        label: 'ID'
+        type: number
+    name:
+        label: 'الاسم'
+        type: text
+    avatar:
+        label: 'الصورة'
+        type: image
+        sortable: false
+        width: 150
+        height: 150
+        options:
+            quality: 80
+    created_at:
+        label: 'تاريخ الإنشاء'
+        type: datetime
+    updated_at:
+        label: 'تاريخ التعديل'
+        type: datetime

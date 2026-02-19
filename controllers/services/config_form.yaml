@@ -1,0 +1,10 @@
+name: Services
+form: $/nailat/nailat/models/service/fields.yaml
+modelClass: Nailat\Nailat\Models\Service
+defaultRedirect: nailat/nailat/services
+create:
+    redirect: 'nailat/nailat/services/update/:id'
+    redirectClose: nailat/nailat/services
+update:
+    redirect: nailat/nailat/services
+    redirectClose: nailat/nailat/services

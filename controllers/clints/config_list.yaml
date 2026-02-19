@@ -1,0 +1,12 @@
+list: $/nailat/nailat/models/clint/columns.yaml
+modelClass: Nailat\Nailat\Models\Clint
+title: Clints
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'nailat/nailat/clints/update/:id'

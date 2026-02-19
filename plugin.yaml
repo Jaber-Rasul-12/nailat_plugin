@@ -1,0 +1,48 @@
+plugin:
+    name: 'nailat.nailat::lang.plugin.name'
+    description: 'nailat.nailat::lang.plugin.description'
+    author: Nailat
+    icon: 'fas icon-sitemap'
+permissions:
+    Nailat:
+        tab: Nailat
+        label: 'Nailat'
+    services:
+        tab: Nailat
+        label: 'الخدمات'
+    ourworks:
+        tab: Nailat
+        label: 'أعمالنا'
+    clints:
+        tab: Nailat
+        label: 'عملائنا'
+    setting_nailat:
+        tab: Nailat
+        label: 'اعدادات الموقع'
+navigation:
+    Nailat:
+        label: Nailat
+        url: nailat/nailat/services
+        icon: icon-bolt
+        iconSvg: plugins/nailat/nailat/assets/image/white_logo_icon.png
+        permissions:
+            - Nailat
+        sideMenu:
+            services:
+                label: 'الخدمات'
+                url: nailat/nailat/services
+                icon: icon-wrench
+                permissions:
+                    - services
+            ourworks:
+                label: 'أعمالنا'
+                url: nailat/nailat/ourworks
+                icon: icon-brush
+                permissions:
+                    - ourworks
+            clints:
+                label: 'عملائنا'
+                url: nailat/nailat/clints
+                icon: icon-users
+                permissions:
+                    - clints

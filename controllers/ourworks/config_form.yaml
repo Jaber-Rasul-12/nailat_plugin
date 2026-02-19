@@ -1,0 +1,10 @@
+name: OurWorks
+form: $/nailat/nailat/models/ourwork/fields.yaml
+modelClass: Nailat\Nailat\Models\OurWork
+defaultRedirect: nailat/nailat/ourworks
+create:
+    redirect: 'nailat/nailat/ourworks/update/:id'
+    redirectClose: nailat/nailat/ourworks
+update:
+    redirect: nailat/nailat/ourworks
+    redirectClose: nailat/nailat/ourworks

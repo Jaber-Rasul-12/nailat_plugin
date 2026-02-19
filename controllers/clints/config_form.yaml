@@ -1,0 +1,10 @@
+name: Clints
+form: $/nailat/nailat/models/clint/fields.yaml
+modelClass: Nailat\Nailat\Models\Clint
+defaultRedirect: nailat/nailat/clints
+create:
+    redirect: 'nailat/nailat/clints/update/:id'
+    redirectClose: nailat/nailat/clints
+update:
+    redirect: nailat/nailat/clints
+    redirectClose: nailat/nailat/clints

@@ -1,0 +1,12 @@
+list: $/nailat/nailat/models/ourwork/columns.yaml
+modelClass: Nailat\Nailat\Models\OurWork
+title: OurWorks
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'nailat/nailat/ourworks/update/:id'
