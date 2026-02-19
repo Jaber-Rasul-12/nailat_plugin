@@ -6,19 +6,22 @@ plugin:
 permissions:
     Nailat:
         tab: Nailat
-        label: 'Nailat'
+        label: Nailat
     services:
         tab: Nailat
-        label: 'الخدمات'
+        label: الخدمات
     ourworks:
         tab: Nailat
-        label: 'أعمالنا'
+        label: أعمالنا
     clints:
         tab: Nailat
-        label: 'عملائنا'
+        label: عملائنا
     setting_nailat:
         tab: Nailat
         label: 'اعدادات الموقع'
+    emailsubscribes:
+        tab: Nailat
+        label: المشتركين
 navigation:
     Nailat:
         label: Nailat
@@ -29,20 +32,26 @@ navigation:
             - Nailat
         sideMenu:
             services:
-                label: 'الخدمات'
+                label: الخدمات
                 url: nailat/nailat/services
                 icon: icon-wrench
                 permissions:
                     - services
             ourworks:
-                label: 'أعمالنا'
+                label: أعمالنا
                 url: nailat/nailat/ourworks
                 icon: icon-brush
                 permissions:
                     - ourworks
             clints:
-                label: 'عملائنا'
+                label: عملائنا
                 url: nailat/nailat/clints
                 icon: icon-users
                 permissions:
                     - clints
+            emailsubscribes:
+                label: المشتركين
+                url: nailat/nailat/emailsubscribes
+                icon: icon-mail-forward
+                permissions:
+                    - emailsubscribes

@@ -1,19 +1,11 @@
 columns:
     id:
-        label: 'ID'
+        label: id
         type: number
-    name:
-        label: 'الاسم'
+    email:
+        label: l
         type: text
         searchable: true
-    avatar:
-        label: 'الصورة'
-        type: image
-        sortable: false
-        width: 150
-        height: 150
-        options:
-            quality: 80
     created_at:
         label: 'تاريخ الإنشاء'
         type: datetime

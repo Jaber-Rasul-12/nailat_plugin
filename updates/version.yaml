@@ -12,3 +12,6 @@
 1.0.5:
     - 'Created table seed_table'
     - seed_table.php
+1.0.6:
+    - 'Created table nailat_nailat_emailsubscribes'
+    - builder_table_create_nailat_nailat_emailsubscribes.php

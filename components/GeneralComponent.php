@@ -1,7 +1,12 @@
 <?php namespace Nailat\Nailat\Components;
 
 use Cms\Classes\ComponentBase;
+use Nailat\Nailat\Models\Clint;
+use Nailat\Nailat\Models\EmailSubscribe;
+use Nailat\Nailat\Models\OurWork;
+use Nailat\Nailat\Models\Service;
 use Nailat\Nailat\Models\SettingWebsiate;
+use Flash;
 
 class GeneralComponent extends ComponentBase
 {
@@ -72,4 +77,27 @@ class GeneralComponent extends ComponentBase
         ];
     }
 
+    function onSaveEmail(){
+        $email = post('email');
+        $check = EmailSubscribe::create(['email' => $email]);
+        if($check){
+            Flash::success('تم الاشتراك بنجاح');
+        }else{
+            Flash::error('حدث خطأ');
+        }
+
+    }
+
+    public function getClints()
+    {
+        return Clint::get();
+    }
+     public function getOurWorks()
+    {
+        return OurWork::get();
+    }
+     public function getServices()
+    {
+        return Service::get();
+    }
 }

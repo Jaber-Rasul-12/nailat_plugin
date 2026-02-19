@@ -1,0 +1,10 @@
+name: EmailSubscribes
+form: $/nailat/nailat/models/emailsubscribe/fields.yaml
+modelClass: Nailat\Nailat\Models\EmailSubscribe
+defaultRedirect: nailat/nailat/emailsubscribes
+create:
+    redirect: 'nailat/nailat/emailsubscribes/update/:id'
+    redirectClose: nailat/nailat/emailsubscribes
+update:
+    redirect: nailat/nailat/emailsubscribes
+    redirectClose: nailat/nailat/emailsubscribes

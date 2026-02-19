@@ -1,0 +1,12 @@
+list: $/nailat/nailat/models/emailsubscribe/columns.yaml
+modelClass: Nailat\Nailat\Models\EmailSubscribe
+title: EmailSubscribes
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'nailat/nailat/emailsubscribes/update/:id'

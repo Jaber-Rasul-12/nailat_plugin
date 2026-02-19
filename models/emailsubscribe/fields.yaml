@@ -1,0 +1,5 @@
+fields:
+    email:
+        label: 'البريد الالكتروني'
+        span: auto
+        type: text
