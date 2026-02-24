@@ -92,10 +92,17 @@ class GeneralComponent extends ComponentBase
     {
         return Clint::get();
     }
+
+    
      public function getOurWorks()
     {
         return OurWork::get();
     }
+
+public function getOurWorksPagination()
+{
+    return OurWork::latest()->take(3)->get();
+}
      public function getServices()
     {
         return Service::get();

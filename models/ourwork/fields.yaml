@@ -19,3 +19,22 @@ fields:
             sharpen: 0
             interlace: false
             extension: auto
+
+    photos:
+        label: 'الصور'
+        span: auto
+        type: fileupload
+        mode: image
+        imageHeight: 260
+        imageWidth: 260
+        thumbOptions:
+            mode: crop
+            offset:
+                - 0
+                - 0
+            quality: 90
+            sharpen: 0
+            interlace: false
+            extension: auto
+
+            

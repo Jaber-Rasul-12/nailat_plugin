@@ -25,6 +25,10 @@ class OurWork extends Model
     public $attachOne = [
     'avatar' => \System\Models\File::class,
 ];
+
+public $attachMany = [
+    'photos' => \System\Models\File::class,
+];
     
     /**
      * @var array Attribute names to encode and decode using JSON.
